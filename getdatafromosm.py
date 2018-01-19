@@ -37,11 +37,7 @@ def saveOsmData(query) :
 # fetch all ways and nodes
 queryMA = """[timeout:125];
     ( 
-        area[admin_level=4][boundary=administrative][name="Massachusetts"];         
         area[admin_level=4][boundary=administrative][name="New York"];         
-        area[admin_level=4][boundary=administrative][name="Connecticut"];         
-        area[admin_level=4][boundary=administrative][name="Rhode Island"]; 
-        area[admin_level=4][boundary=administrative][name="Pennsylvania"];                               
     )->.searchArea;
     (
     way["sport"="baseball"]["leisure"="pitch"](area.searchArea);

@@ -78,6 +78,6 @@ for classDir in os.listdir(cfg.rootOsmDir) :
             print("")
             
             if ( neededTile ):
-                sleep(random()*3)
+                sleep(random()*1)
 
 
