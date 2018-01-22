@@ -14,3 +14,7 @@ kernel*.json
 *.jpg
 *.h5
 all.log
+
+lib/
+bin/
+share/
